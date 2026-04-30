@@ -1,6 +1,6 @@
 import { PiStar, PiStarFill } from "react-icons/pi";
 
-export default function ProductCard({prop}) {
+export default function ProductCard({props}) {
   const rating = true;
 
   return (
