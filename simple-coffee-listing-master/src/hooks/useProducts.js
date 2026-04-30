@@ -18,6 +18,7 @@ export function useProducts() {
       }
 
       const data = await res.json();
+      console.log(data)
       setProducts(data);
     } catch (err) {
       if (err.name !== "AbortError") {

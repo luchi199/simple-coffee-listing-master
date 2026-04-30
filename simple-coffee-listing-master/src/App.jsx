@@ -1,9 +1,9 @@
-import ProductCard from "./components/ProductCard";
+import Products from "./components/Products";
 
 function App() {
   return (
     <>
-      <ProductCard />
+      <Products />
     </>
   );
 }
